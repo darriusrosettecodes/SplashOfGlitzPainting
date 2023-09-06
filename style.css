@@ -48,11 +48,6 @@ body{
     text-align: center;
     padding-top: 200px;
    margin: auto;
-   transition: 1s;
-   animation-name: mainh1;
-   animation-timing-function: ease;
-   animation-fill-mode: forwards;
-   animation-duration: 1s;
 }
 
 .main p{
