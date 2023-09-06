@@ -54,13 +54,6 @@ body{
    animation-fill-mode: forwards;
    animation-duration: 1s;
 }
-@keyframes mainh1 {
-    0%{font-size: 40px;
-    }
-    100%{
-        font-size: 50px;
-    }
-}
 
 .main p{
     color: rgb(255, 225, 91);
