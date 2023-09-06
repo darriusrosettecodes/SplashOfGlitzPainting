@@ -12,7 +12,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 20px 25px;
-    background-color: rgba(255, 225, 91, 0.896);
+    background-color: rgb(255, 225, 91);
 }
 .logo {
     text-decoration: none;
@@ -48,8 +48,20 @@ body{
     text-align: center;
     padding-top: 200px;
    margin: auto;
-   
+   transition: 1s;
+   animation-name: mainh1;
+   animation-timing-function: ease;
+   animation-fill-mode: forwards;
+   animation-duration: 1s;
 }
+@keyframes mainh1 {
+    0%{font-size: 40px;
+    }
+    100%{
+        font-size: 50px;
+    }
+}
+
 .main p{
     color: rgb(255, 225, 91);
     font-size: 20px;
@@ -82,12 +94,14 @@ body{
 .largegallery img{
     height: 375px;
     width: 275px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .main3{
     margin: 0px 40px;
 }
 .smallgallery img{
     height: 250px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .smallgallerybox{
     display: flex;
@@ -121,6 +135,10 @@ body{
    justify-content: space-between;
    align-items: center;
    margin:180px 250px;
+ }
+ .abtimg{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
  }
  .about .info{
     margin-top: 50px;
